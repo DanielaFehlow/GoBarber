@@ -1,0 +1,484 @@
+body {
+ background-color: #312e38;
+}
+   
+header {    
+ background: #28262E;
+ height: 144px;
+ left: 0px;
+ position: absolute;
+ top: 0px;
+ width: 100%;
+}
+   
+.content {
+    position: absolute;
+    width: 100px;
+    left: 1000px;
+    height: 100px;
+    top: 20px;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    top: 284px;
+    height: 50%;
+}
+
+#logo-gobarber {
+ position: absolute;
+ width: 137.6px;
+ height: 80px;
+ margin-left: 160px;
+ top: 32px;
+}
+
+#login-picture {
+ position: absolute;
+ width: 56px;
+ height: 56px;
+ left: 2128.6px;
+ top: 44px;
+ border-radius: 100%;
+}
+   
+.text-welcome {
+ position: absolute;
+ width: 142px;
+ height: 52px;
+ left: 2199.6px;
+ top: 46px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ color: #999591;
+}
+  
+.name-profile {
+ position: absolute;
+ width: 142px;
+ height: 52px;
+ left: 2199.6px;
+ top: 72px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ color: #FF9000;
+}
+   
+#icon-out {
+ position: absolute;
+ width: 20px;
+ height: 20px;
+ left: 2361px;
+ top: 62px;
+}
+
+#arrow-left {
+ position: absolute;
+ width: 30px;
+ height: 30px;
+ margin-left: 145px;
+ top: 181px;
+}
+
+.text-barbeiros {
+ position: absolute;
+ width: 73px;
+ height: 26px;
+ margin-left: 174.6px;
+ top: 182px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 26px;
+ color: #FF9000;
+}
+
+h1 {
+ position: absolute;
+ width: 164px;
+ height: 47px;
+ margin-left: 160px;
+ top: 287px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 36px;
+ line-height: 47px;
+ color: #F4EDE8;
+}
+
+.week-days {
+ position: absolute;
+ height: 21px;
+ width: 125px;
+ left: 27.11%;
+ right: 70.21%;
+ top: 60px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 21px;
+ color: #999591;
+}
+
+.number-hour {
+ position: absolute;
+ width: 80px;
+ left: 27.11%;
+ right: 74.03%;
+ top: 82px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 21px;
+ color: #999591;
+}
+
+.container {
+ position: absolute;
+ height: 112px;
+ width: 544px;
+ left: 160px;
+ right: 51.11%;
+ top: 150px;
+ background: #3E3B47;
+ border-radius: 10px;
+}
+
+.text-name {
+ position: absolute;
+ height: 32px; 
+ width: 198px;
+ left: 22.31%;
+ right: 66.94%;
+ top: 17px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 24px;
+ line-height: 32px;
+ color: #F4EDE8;
+}
+
+#picture-leonardo {
+ position: absolute;
+ height: 80px;
+ left: 3.78%;
+ right: 81.67%;
+ top: 17px;
+ background:#423F4D;
+ border-radius: 40px;
+}
+
+#icon-clock {
+ position: absolute;
+ height: 20px;
+ left: 22.31%;
+ right: 79.31%;
+ top: 60px;
+}
+
+.container-2 {
+ position: absolute;
+ height: 112px;
+ width: 544px;
+ left: 21.3%;
+ right: 12.22%;
+ top: 150px;
+ background: #3E3B47;
+ border-radius: 10px;
+}
+
+.container-3 {
+ position: absolute;
+ height: 112px;
+ width: 544px;
+ left: 4.7%;
+ right: 51.11%;
+ top: 280px; 
+ background: #3E3B47;
+ border-radius: 10px;
+}
+
+.container-4 {
+ position: absolute;
+ height: 112px;
+ width: 544px;
+ left: 21.3%;
+ right: 12.22%;
+ top: 280px;
+ background: #3E3B47;
+ border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width:425px) {
+header{
+    width: 168%;
+    position: absolute;
+}
+    .content {
+    position: absolute;
+    left:-1840px;
+    }
+    .wrapper {
+    margin: 0%;
+    }
+    #logo-gobarber, h1 {
+        margin-left: 2rem ;
+    }
+    .text-barbeiros{
+        margin-left: 3rem;
+    }
+    #arrow-left{
+      margin-left: 1rem;
+    }
+.container {
+    left: 20px;
+}
+.container-2 {
+    top: 290px;
+    left: 20px;
+    right: 51.11%;
+}
+
+.container-3 {
+    top: 420px;
+    left: 20px;
+    right: 51.11%;
+}
+
+.container-4 {
+    top: 550px;
+    left: 20px;
+    right: 51.11%;
+}
+}
+
+@media screen and (min-width: 426px) and (max-width:767px) {
+    header{
+        position: absolute;
+    }
+
+    .container {
+        height: 112px;
+        width: 544px;
+        position: absolute;
+    }   
+     .container-2 {
+        top: 541px;
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-3 {
+        top: 681px;
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-4 {
+        top: 820px;
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+
+    header{
+        width: 171%;
+        position: absolute;
+    }
+.content {
+        position: relative;
+        left: -1065px;
+        margin-right: 10px;
+    }
+
+    .container {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+    }   
+     .container-2 {
+        left: 99.3%;
+        right: 12.22%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-3 {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-4 {
+        left: 99.3%;
+        right: 12.22%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }  
+}
+
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+
+    header{
+        position: absolute;
+        width: 160%;
+    }
+    .content {
+        position: absolute;
+        left: -741px;
+    }
+
+    .container {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+    }   
+     .container-2 {
+        left: 74.3%;
+        right: 12.22%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-3 {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-4 {
+        left: 74.3%;
+        right: 12.22%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }  
+}
+
+@media screen and (min-width: 1440px) and (max-width:1999px) {
+   
+    header{
+        width: 100%;
+        position: absolute;
+    }
+    .content {
+        position: absolute;
+        left: -946px;
+    }
+
+    .wrapper {
+        width: 70%;
+    }
+
+    .container {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+    }   
+     .container-2 {
+        left: 74.3%;
+        right: 12.22%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-3 {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-4 {
+        left: 74.3%;
+        right: 12.22%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }  
+}
+
+@media screen and (min-width: 2000px) and (max-width:2560px) {
+    header{
+        width: 121%;
+        position: absolute;
+    }
+    .content {
+        position: absolute;
+        left: 150px;
+    }
+
+    .wrapper {
+        width: 70%;
+    }
+
+    .container {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+    }   
+     .container-2 {
+        left: 42%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-3 {
+        left: 160px;
+        right: 51.11%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }
+       
+       .container-4 {
+        left: 42%;
+        height: 112px;
+        width: 544px;
+        position: absolute;
+       }  
+
+}

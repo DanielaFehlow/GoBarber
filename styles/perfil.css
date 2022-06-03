@@ -1,0 +1,143 @@
+header {    
+ background: #28262E;
+ height: 144px;
+ left: 0px;
+ position: absolute;
+ top: 0px;
+ width: 100%;
+}
+
+body {
+ background-color: #312e38;
+}
+
+.container{
+ grid: auto / 100%;
+}
+
+#arrow-icon {
+ height: 50px;
+ left: 244px;
+ position: absolute;
+ top: 47px;
+ width: 50px;
+}
+
+.profile-photo {    
+ cursor: pointer;
+ height: 186px;
+ position: absolute;
+ top: 51px;
+ width: 186px;
+}
+
+h1 {       
+ color: #F4EDE8;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ height: 26px;
+ line-height: 26px; 
+ left: 5px;
+ position: absolute;
+ top: 270px;
+ width: 98px;
+}
+
+.wrapper {
+ align-items: center; 
+ flex-direction: column; 
+ height: 100%;
+ justify-content: space-between;
+ margin: auto;
+ max-width: 340px;
+ position: relative;
+}
+
+.content-container {
+ align-items: center;
+ display: flex; 
+ flex-direction: column;
+ width: 100%;
+}
+
+#login-profile {
+ display: flex;
+ gap: 08px;
+ flex-direction: column;
+ width: 100%;
+}
+     
+#login-profile input {
+ background-color: #232129; 
+ box-sizing: border-box; 
+ border: none;
+ border-radius: 10px;
+ color: rgb(226, 138, 6);
+ display: flex;
+ font-size: 1rem;
+ font-family: 'Roboto Slab';
+ padding: 18px 0 18px 52px;
+ width: 100%;
+}
+     
+#login-profile input:focus {
+ border: 1px solid #ff9000;
+ box-shadow: none;
+ outline: none !important;
+}
+
+.input-form {
+ display: flex;
+ width: 100%; 
+}
+
+#name {
+ margin-top: 319px;
+}
+
+#email {
+ margin-bottom: 20px;
+}
+
+.img-icon {
+ left: 18px;
+ position: absolute;
+ transform: translateY(105%);
+ margin-top: 319px;
+}
+
+.input-icon {
+ left: 18px;
+ position: absolute;
+ transform: translateY(105%);
+}
+
+#box-button{
+ background-color: #FF9000;
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+ font-size: 16px;
+ font-family: 'Roboto Slab'; 
+ font-weight: 500; 
+ height: 56px;
+ line-height: 21px;
+ margin-top: 24px;
+ transition: 0.2s ease;
+ width: 340px;
+}
+     
+#box-button:hover{
+ background-color: #96590a; ;
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+header, main{
+ width: 106%;
+}
+#arrow-icon{
+ left: 50px;
+}
+}
